@@ -26,4 +26,6 @@ public class Task8 {
 
         return sum;
     }
+
+
 }

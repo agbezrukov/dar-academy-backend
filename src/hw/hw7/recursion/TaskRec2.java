@@ -1,5 +1,7 @@
 package hw.hw7.recursion;
 
+import java.util.Scanner;
+
 /*
 2) Напишите рекурсивную функцию для вычисления N-го числа Фибоначчи.
 N-ое число Фибоначчи определяется как сумма двух предыдущих чисел Фибоначчи.
@@ -8,8 +10,10 @@ N-ое число Фибоначчи определяется как сумма 
 public class TaskRec2 {
     public static void main(String[] args) {
 
-        int n = 7;
-        System.out.println("N-ное число Фибоначчи: " + fibonacci(n));
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("N-ное число Фибоначчи: " + fibonacci(scanner.nextInt()));
+        System.out.println("N-ное число Фибоначчи: " + fibonacci2(scanner.nextInt()));
     }
 
     private static int fibonacci(int n) {
@@ -25,4 +29,13 @@ public class TaskRec2 {
         }
         return sum;
     }
+
+    private static int fibonacci2(int n) {
+        if (n ==0 || n==1){
+            return n;
+        }
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+
+
 }

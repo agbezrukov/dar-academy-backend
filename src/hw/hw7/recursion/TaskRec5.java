@@ -19,10 +19,8 @@ public class TaskRec5 {
         if (startIndex == myArray.length) {
             return sum;
         }
-
-        if (startIndex <= myArray.length - 1) {
             sum += myArray[startIndex];
-        }
+
         return sumArray(myArray, startIndex + 1, sum);
     }
 }

@@ -6,7 +6,7 @@ package hw.hw7.recursion;
  */
 public class TaskRec4 {
     public static void main(String[] args) {
-        int myArray[] = {3, 55, 7, 12};
+        int[] myArray = {3, 55, 7, 12};
         int startIndex = 0;
         int max = myArray[0];
         int maxNumArray = maxNum(myArray, startIndex, max);

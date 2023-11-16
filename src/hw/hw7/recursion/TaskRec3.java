@@ -8,7 +8,7 @@ public class TaskRec3 {
 
     public static void main(String[] args) {
         int x = 2;
-        int n = 4;
+        int n = 3;
 
         if (n < 0) {
             System.out.println("Степень должна быть неотрицательным числом.");
