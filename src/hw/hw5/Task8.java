@@ -14,23 +14,16 @@ package hw.hw5;
 public class Task8 {
     public static void main(String[] args) {
 
-        String gradeClass = "C";
+        char gradeClass = 'B';
         double employeeSalary = 4000.0;
 
         switch (gradeClass) {
-            case "A":
-                employeeSalary += employeeSalary * 50 / 100;
-                System.out.println(employeeSalary);
-                break;
-            case "B":
-                employeeSalary += employeeSalary * 25 / 100;
-                System.out.println(employeeSalary);
-                break;
-            case "C":
-                System.out.println(employeeSalary);
-                break;
-            default:
-                System.out.println("class is not correctly");
+            case 'A' -> employeeSalary += employeeSalary * 50 / 100;
+            case 'B' -> employeeSalary += employeeSalary * 25 / 100;
+            case 'C' -> {}
+            default -> System.out.println("class is not correctly");
         }
+
+        System.out.println(employeeSalary);
     }
 }

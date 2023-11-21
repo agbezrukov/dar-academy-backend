@@ -13,22 +13,24 @@ package hw.hw5;
 public class Task3 {
     public static void main(String[] args) {
 
-        int grade = 100;
+        int points = 20;
+        char grade;
 
-        if (grade >= 0 && grade < 25) {
-            System.out.println("Your grade = F");
-        } else if (grade >= 25 && grade < 45) {
-            System.out.println("Your grade = E");
-        } else if (grade >= 45 && grade < 50) {
-            System.out.println("Your grade = D");
-        } else if (grade >= 50 && grade < 60) {
-            System.out.println("Your grade = C");
-        } else if (grade >= 60 && grade < 80) {
-            System.out.println("Your grade = B");
-        } else if (grade >= 80 && grade <= 100) {
-            System.out.println("Your grade = A");
+
+        if (points < 25) {
+            grade = 'F';
+        } else if (points >= 25 && points < 45) {
+            grade = 'E';
+        } else if (points >= 45 && points < 50) {
+            grade = 'D';
+        } else if (points >= 50 && points < 60) {
+            grade = 'C';
+        } else if (points >= 60 && points < 80) {
+            grade = 'B';
         } else {
-            System.out.println("grade is incorrect");
+            grade = 'A';
         }
+
+        System.out.println("Your points = " + grade);
     }
 }

@@ -17,7 +17,6 @@ public class Task5 {
     }
 
     private static int countNumberDigits(int num1) {
-
         int count = 0;
 
         for (int i = 0; i < num1; num1 /= 10) {
@@ -25,7 +24,6 @@ public class Task5 {
                 count++;
             }
         }
-
         return count;
     }
 }
