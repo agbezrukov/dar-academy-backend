@@ -16,7 +16,6 @@ public class Task3 {
         int points = 20;
         char grade;
 
-
         if (points < 25) {
             grade = 'F';
         } else if (points >= 25 && points < 45) {
