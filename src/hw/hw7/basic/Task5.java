@@ -9,8 +9,8 @@ package hw.hw7.basic;
  */
 public class Task5 {
     public static void main(String[] args) {
-        int num1 = 1254212;
 
+        int num1 = 1254212;
         int sumCount = countNumberDigits(num1);
 
         System.out.println(sumCount);

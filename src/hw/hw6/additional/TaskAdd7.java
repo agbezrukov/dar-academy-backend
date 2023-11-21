@@ -7,7 +7,7 @@ public class TaskAdd7 {
     public static void main(String[] args) {
 
         final int LENGTH = 10;
-        int[][] source = new int[LENGTH][LENGTH]; // создал матрицу, взяв с первой же ссылки ))
+        int[][] source = new int[LENGTH][LENGTH]; // создание матрицы
 
         for (int i = 0; i < LENGTH; i++) {
             for (int j = 0; j < LENGTH; j++) {

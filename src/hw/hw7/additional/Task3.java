@@ -12,7 +12,9 @@ public class Task3 {
     }
 
     private static Boolean isPalindrome(String str) {
+
         Boolean result = true;
+
         for (int i = 0; i < str.length() / 2; i++) {
             if (str.charAt(i) != str.charAt(str.length() - 1 - i)) {
                 result = false;

@@ -15,6 +15,7 @@ public class Task4 {
     public static void main(String[] args) {
 
         String sentence = "Java is good to learn Object Oriented programming.";
+
         int amountWords = countAllWords(sentence);
         System.out.println(amountWords);
     }

@@ -19,7 +19,6 @@ public class Task13 {
 
         for (int i = 0; i < arrays.length; i++) {
             for (int j = 0; j < arrays[i].length; j++) {
-//                System.out.println(arrays[i][j]);
                 if (arrays[i][j] > maxNum ){
                     maxNum =arrays[i][j];
                 }
@@ -29,14 +28,6 @@ public class Task13 {
             }
         }
 
-//        int minNum = maxNum;
-//        for (int i = 0; i < arrays.length; i++) {
-//            for (int j = 0; j < arrays[i].length; j++) {
-//                if (minNum > arrays[i][j] ){
-//                    minNum =arrays[i][j];
-//                }
-//            }
-//        }
         System.out.println("Вывод:");
         System.out.println("Максимальный элемент = " + maxNum);
         System.out.println("Минимальный элемент = " + minNum);

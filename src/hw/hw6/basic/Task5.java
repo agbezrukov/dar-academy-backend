@@ -22,7 +22,6 @@ int m = 3
 [3, -6, 23]
  */
 public class Task5 {
-
     public static void main(String[] args) {
         int n = 1;
         int m = 3;
@@ -35,7 +34,6 @@ public class Task5 {
 
         System.out.println("Вывод:");
         System.out.println(Arrays.toString(array2));
-
     }
 }
 

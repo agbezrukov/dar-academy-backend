@@ -8,7 +8,6 @@ public class Task2 {
 
     static final int MIN = 60;
     static final int HOUR = MIN * 60;
-
     static final int SEC = 60;
 
     public static void main(String[] args) {

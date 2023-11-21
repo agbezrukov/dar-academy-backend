@@ -23,6 +23,7 @@ public class TaskRec4 {
         if (myArray[startIndex] > max) {
             max = myArray[startIndex];
         }
+
         return maxNum(myArray, startIndex + 1, max);
     }
 }

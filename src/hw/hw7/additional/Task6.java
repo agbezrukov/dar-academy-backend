@@ -13,7 +13,9 @@ public class Task6 {
     }
 
     public static int getDaysInMonth(int month, int year) {
+
         int days = 0;
+
         if ((month < 8 && month % 2 == 1) || (month >= 8 && month % 2 == 0))
             days = 31;
         else if (month == 2)

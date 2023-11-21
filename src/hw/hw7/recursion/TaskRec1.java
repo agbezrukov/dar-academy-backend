@@ -17,7 +17,7 @@ public class TaskRec1 {
         printToN(n, 1);
     }
 
-    public static void printToN(int n) {
+    public static void printToN(int n) { // решение 1
 
         if (n > 1) {
             printToN(n - 1);
@@ -26,7 +26,7 @@ public class TaskRec1 {
 
     }
 
-    public static void printToN(int n, int i) {
+    public static void printToN(int n, int i) { // решение 2
 
         if (i <= n) {
             System.out.print(i + " ");

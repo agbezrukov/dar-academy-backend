@@ -13,24 +13,9 @@ public class TaskRec2 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("N-ное число Фибоначчи: " + fibonacci(scanner.nextInt()));
-        System.out.println("N-ное число Фибоначчи: " + fibonacci2(scanner.nextInt()));
     }
 
     private static int fibonacci(int n) {
-
-        int sum;
-
-        if (n <= 0) {
-            sum = 0;
-        } else if (n == 1) {
-            sum = 1;
-        } else {
-            sum = fibonacci(n - 1) + fibonacci(n - 2);
-        }
-        return sum;
-    }
-
-    private static int fibonacci2(int n) {
         if (n ==0 || n==1){
             return n;
         }

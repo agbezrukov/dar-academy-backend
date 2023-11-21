@@ -34,8 +34,6 @@ import java.util.Arrays;
 public class Task9 {
     public static void main(String[] args) {
 
-
-//        int [][] array = {{10,20,30},{40,50,60}};
         int[][] array = {{4, 2, 1}, {2, 7, 2}};
         int rows = array.length;
         int columns = array[0].length;

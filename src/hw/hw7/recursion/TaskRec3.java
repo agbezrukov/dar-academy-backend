@@ -7,6 +7,7 @@ package hw.hw7.recursion;
 public class TaskRec3 {
 
     public static void main(String[] args) {
+
         int x = 2;
         int n = 3;
 

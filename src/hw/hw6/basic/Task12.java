@@ -35,7 +35,5 @@ public class Task12 {
         for (int[] a : array) {
             System.out.println(Arrays.toString(a));
         }
-
-
     }
 }

@@ -21,14 +21,6 @@ public class Task7 {
                 minNum1 = array[i];
             }
         }
-//
-//        int minNum2 = array[0];
-//
-//        for (int i = 0; i < array.length; i++) {
-//            if (minNum2 > array[i] && array[i] != minNum1){
-//                minNum2 = array[i];
-//            }
-//        }
 
         System.out.println("Вывод:");
         System.out.println("Наименьший элемент = " + minNum1);

@@ -32,7 +32,6 @@ public class Task1 {
         } else {
             num = num3;
         }
-
         return num;
     }
 }

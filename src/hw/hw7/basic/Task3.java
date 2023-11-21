@@ -12,7 +12,6 @@ public class Task3 {
     public static void main(String[] args) {
 
         String word = "DarTech123";
-
         int amountVowels = countVowelsInLine(word);
 
         System.out.println(amountVowels);
@@ -21,7 +20,6 @@ public class Task3 {
     private static int countVowelsInLine(String word) {
 
         int count = 0;
-
         String wordLowerCase = word.toLowerCase();
 
         for (int i = 0; i < wordLowerCase.length(); i++) {

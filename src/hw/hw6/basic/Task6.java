@@ -16,7 +16,6 @@ public class Task6 {
         int maxNum = array[0];
         int minNum = array[0];
 
-
         for (int i = 1; i < array.length; i++) {
             if (array[i] > maxNum ){
                 maxNum =array[i];
@@ -26,12 +25,6 @@ public class Task6 {
             }
         }
 
-//        int minNum = maxNum;
-//        for (int i = 0; i < array.length; i++) {
-//            if (minNum > array[i]){
-//                minNum = array[i];
-//            }
-//        }
         System.out.println("Вывод:");
         System.out.println("Минимальный элемент = " + minNum);
         System.out.println("Максимальный элемент = " + maxNum);

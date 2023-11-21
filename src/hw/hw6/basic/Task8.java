@@ -13,28 +13,6 @@ public class Task8 {
 
         int[] array = {1, 2, 3, 0, 4, 6};
 
-//        String[] strArray = new String[array.length];
-//        for (int i = 0; i < array.length; i++) {
-//            strArray[i] = String.valueOf(array[i]);
-//        }
-//
-//        for (int i = 0; i < strArray.length - 1; i++) {
-//            for (int j = i + 1; j < strArray.length; j++) {
-//                String s1 = strArray[i] + strArray[j];
-//                String s2 = strArray[j] + strArray[i];
-//                if (s2.compareTo(s1) > 0) {
-//                    String temp = strArray[i];
-//                    strArray[i] = strArray[j];
-//                    strArray[j] = temp;
-//                }
-//            }
-//        }
-//
-//        for (int i = 0; i < strArray.length; i++) {
-//            System.out.print(strArray[i]);
-//        }
-
-
         int k = -1;
         String result = "";
 
