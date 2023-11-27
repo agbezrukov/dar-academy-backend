@@ -12,15 +12,15 @@ package hw.hw6.basic;
 public class Task6 {
     public static void main(String[] args) {
 
-        int [] array = {1, 3, -6, 23, 14, 2};
+        int[] array = {1, 3, -6, 23, 14, 2};
         int maxNum = array[0];
         int minNum = array[0];
 
         for (int i = 1; i < array.length; i++) {
-            if (array[i] > maxNum ){
-                maxNum =array[i];
+            if (array[i] > maxNum) {
+                maxNum = array[i];
             }
-            if (minNum > array[i]){
+            if (minNum > array[i]) {
                 minNum = array[i];
             }
         }

@@ -13,12 +13,12 @@ public class Rectangle {
         return sideA * sideB;
     }
 
-    public void printAreaRectangle(){
+    public void printAreaRectangle() {
         System.out.println(this);
     }
 
     @Override
     public String toString() {
-       return String.format("Площадь прямоугольника: %s", returnArea());
+        return String.format("Площадь прямоугольника: %s", returnArea());
     }
 }

@@ -22,7 +22,7 @@ public class TaskAdd5 {
             }
         }
 
-        for (int [] a: array) {
+        for (int[] a : array) {
             System.out.println(Arrays.toString(a));
         }
     }

@@ -1,4 +1,5 @@
 package hw.hw7.additional;
+
 /*
 Написать метод isPalindrome, который принимает строку и возвращает true,
 если строка является палиндромом (читается одинаково в обоих направлениях), и false в противном случае.
@@ -6,7 +7,7 @@ package hw.hw7.additional;
 public class Task3 {
     public static void main(String[] args) {
 
-        String str= "abcddcba";
+        String str = "abcddcba";
 
         System.out.println(isPalindrome(str));
     }
@@ -21,7 +22,7 @@ public class Task3 {
                 break;
             }
         }
-       return result;
+        return result;
     }
 }
 

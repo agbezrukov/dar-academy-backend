@@ -1,4 +1,5 @@
 package hw.hw8.task5;
+
 /*
 Создайте класс 'Movie'. Экземпляр класса Movie представляет фильм. Этот класс имеет следующие три переменные класса:
  title, которая является строкой, представляющей название фильма
@@ -23,7 +24,7 @@ public class Movie {
         this.rating = rating;
     }
 
-    public Movie(String title, String studio){
+    public Movie(String title, String studio) {
         this.title = title;
         this.studio = studio;
         this.rating = "PG";

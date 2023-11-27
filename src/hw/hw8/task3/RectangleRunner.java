@@ -1,4 +1,5 @@
 package hw.hw8.task3;
+
 /*
 Создайте класс 'Rectangle' с полями длины и ширины, переданные в качестве параметров конструктору,
 и методом 'returnArea', который возвращает площадь.
@@ -6,10 +7,10 @@ package hw.hw8.task3;
  */
 public class RectangleRunner {
     public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle(5,9);
+        Rectangle rectangle = new Rectangle(5, 9);
         rectangle.printAreaRectangle();
 
-        Rectangle rectangle2 = new Rectangle(10,14);
+        Rectangle rectangle2 = new Rectangle(10, 14);
         rectangle2.printAreaRectangle();
     }
 }

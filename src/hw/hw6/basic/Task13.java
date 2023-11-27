@@ -1,4 +1,5 @@
 package hw.hw6.basic;
+
 /*
 13. Напишите программу, которая возвращает максимальное и минимальное значение, найденные в двумерном массиве.
 
@@ -13,17 +14,17 @@ package hw.hw6.basic;
 public class Task13 {
     public static void main(String[] args) {
 
-        int [][] arrays = {{10,20,30},{40,50,60}};
+        int[][] arrays = {{10, 20, 30}, {40, 50, 60}};
         int maxNum = arrays[0][0];
         int minNum = maxNum;
 
         for (int i = 0; i < arrays.length; i++) {
             for (int j = 0; j < arrays[i].length; j++) {
-                if (arrays[i][j] > maxNum ){
-                    maxNum =arrays[i][j];
+                if (arrays[i][j] > maxNum) {
+                    maxNum = arrays[i][j];
                 }
-                if (minNum > arrays[i][j] ){
-                    minNum =arrays[i][j];
+                if (minNum > arrays[i][j]) {
+                    minNum = arrays[i][j];
                 }
             }
         }

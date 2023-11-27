@@ -12,15 +12,15 @@ package hw.hw7.basic;
 public class Task2 {
     public static void main(String[] args) {
 
-        int num1 = 25;
-        int num2 = 45;
-        int num3 = 65;
+        double num1 = 25.0;
+        double num2 = 45.0;
+        double num3 = 65.0;
 
         double averageNumber = averageCalculationNumber(num1, num2, num3);
         System.out.println(averageNumber);
     }
 
-    private static double averageCalculationNumber(int num1, int num2, int num3) {
+    private static double averageCalculationNumber(double num1, double num2, double num3) {
         return (num1 + num2 + num3) / 3.0;
     }
 }

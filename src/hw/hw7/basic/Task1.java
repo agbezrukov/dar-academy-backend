@@ -17,8 +17,10 @@ public class Task1 {
         int num3 = 29;
 
         int smallNumber = findSmallNumber(num1, num2, num3);
+        int minNumber = findMathMinNumber(num1, num2, num3);
 
         System.out.println(smallNumber);
+        System.out.println(minNumber);
     }
 
     private static int findSmallNumber(int num1, int num2, int num3) {
@@ -33,5 +35,9 @@ public class Task1 {
             num = num3;
         }
         return num;
+    }
+
+    private static int findMathMinNumber(int num1, int num2, int num3) {
+        return Math.min(Math.min(num1, num2), Math.min(num1, num3));
     }
 }

@@ -1,4 +1,5 @@
 package hw.hw8.task5;
+
 /*
      3) Создайте экземпляры класса Movie
      с названием "Фокус", студией "RatPac-Dune Entertainment" и рейтингом "R" и

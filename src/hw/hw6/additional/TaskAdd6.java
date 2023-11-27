@@ -2,6 +2,7 @@ package hw.hw6.additional;
 /*
 Напишите программу, которая проверяет, является ли заданная матрица симметричной (относительно главной диагонали).
  */
+
 import java.util.concurrent.ThreadLocalRandom;
 
 public class TaskAdd6 {

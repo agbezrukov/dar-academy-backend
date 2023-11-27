@@ -1,4 +1,5 @@
 package hw.hw7.basic;
+
 /*
 Напишите метод для подсчета всех слов в строке.
 
@@ -24,7 +25,7 @@ public class Task4 {
 
         String sentenceCount = sentence.replaceAll("\\s", "");
 
-        return sentence.length()-sentenceCount.length() + 1;
+        return sentence.length() - sentenceCount.length() + 1;
     }
 
 }

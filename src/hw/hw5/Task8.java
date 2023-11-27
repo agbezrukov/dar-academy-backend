@@ -20,7 +20,8 @@ public class Task8 {
         switch (gradeClass) {
             case 'A' -> employeeSalary += employeeSalary * 50 / 100;
             case 'B' -> employeeSalary += employeeSalary * 25 / 100;
-            case 'C' -> {}
+            case 'C' -> {
+            }
             default -> System.out.println("class is not correctly");
         }
 

@@ -26,7 +26,7 @@ public class Task5 {
 
     private static void printArray(double[] doublesArray) {
         System.out.print("Array doubles:");
-        for (double d: doublesArray) {
+        for (double d : doublesArray) {
             System.out.print(" " + d);
         }
         System.out.println();
@@ -34,7 +34,7 @@ public class Task5 {
 
     private static void printArray(char[] charsArray) {
         System.out.print("Array chars:");
-        for (char c: charsArray) {
+        for (char c : charsArray) {
             System.out.print(" " + c);
         }
     }
