@@ -1,10 +1,12 @@
 package hw.hw8.task1;
 
+import java.util.Objects;
+
 /*
 Создайте класс с именем 'Student' со строковыми переменными name, surname, address и целочисленной переменной id.
 Класс Student имеет метод toString() для печати информации о студенте.
  */
-public class Student {
+public class Student implements Cloneable {
 
     private String name;
     private String surname;
@@ -53,5 +55,24 @@ public class Student {
     @Override
     public String toString() {
         return String.format("name: %s, surname: %s, address: %s, id: %s", getName(), getSurname(), getAddress(), getId());
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return id == student.id && Objects.equals(name, student.name) && Objects.equals(surname, student.surname)
+                && Objects.equals(address, student.address);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, surname, address, id);
+    }
+
+    @Override
+    protected Student clone() throws CloneNotSupportedException {
+        return (Student) super.clone();
     }
 }

@@ -10,5 +10,20 @@ public class MovieRunner {
 
         Movie film1 = new Movie("Фокус", "RatPac-Dune Entertainment", "R");
         Movie film2 = new Movie("Главный герой", "20th Century Studios");
+
+        System.out.println(film2);
+
+        Movie film3;
+
+        try {
+            film3 = (Movie) film1.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new RuntimeException(e);
+        }
+
+        film3.setRating("S");
+        System.out.println(film1);
+        System.out.println(film3);
+
     }
 }

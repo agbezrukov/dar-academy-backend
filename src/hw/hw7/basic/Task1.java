@@ -38,6 +38,6 @@ public class Task1 {
     }
 
     private static int findMathMinNumber(int num1, int num2, int num3) {
-        return Math.min(Math.min(num1, num2), Math.min(num1, num3));
+        return Math.min(Math.min(num1, num2), num3);
     }
 }

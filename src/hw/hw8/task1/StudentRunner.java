@@ -7,7 +7,7 @@ package hw.hw8.task1;
 Выведите информацию о студентах с помощью метода toString().
  */
 public class StudentRunner {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
 
         Student student1 = new Student("Алиса", "Смит", "Коктем-2", 24);
         Student student2 = new Student("Азамат", "Алимжанов", "Достык 42", 34);
@@ -16,5 +16,11 @@ public class StudentRunner {
         System.out.println(student1);
         System.out.println(student2);
         System.out.println(student3);
+
+        Student student4 = student1.clone();
+
+        student4.setName("Serj");
+        System.out.println(student4);
+        System.out.println(student1);
     }
 }
