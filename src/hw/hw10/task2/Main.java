@@ -5,12 +5,8 @@ package hw.hw10.task2;
  */
 public class Main {
     public static void main(String[] args) {
-
-        WeekdayExample weekdayExample = new WeekdayExample();
-
         for (Weekday weekday : Weekday.values()) {
-            weekdayExample.setWeekday(weekday);
-            weekdayExample.printDayInfo(weekday);
+            System.out.println(Weekday.isHoliday(weekday));
         }
     }
 }

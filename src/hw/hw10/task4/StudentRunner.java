@@ -19,15 +19,17 @@ public class StudentRunner {
         studentList.add(student2);
         studentList.add(student3);
 
-        for (Student st : studentList) {
-            System.out.println(st);
-        }
+//        for (Student st : studentList) {
+//            System.out.println(st);
+//        }
 
-        Iterator<Student> studentIterator = studentList.iterator();
-        while (studentIterator.hasNext()) {
-            Student student = studentIterator.next();
-            System.out.println(student.toString());
-        }
+        studentList.forEach(System.out::println);
+
+//        Iterator<Student> studentIterator = studentList.iterator();
+//        while (studentIterator.hasNext()) {
+//            Student student = studentIterator.next();
+//            System.out.println(student.toString());
+//        }
 
     }
 }

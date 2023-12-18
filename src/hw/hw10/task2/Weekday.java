@@ -4,17 +4,13 @@ package hw.hw10.task2;
 Создайте публичное перечисление Weekday с константами для MONDAY, TUESDAY,... до SUNDAY.
  */
 public enum Weekday {
-    MONDAY("MONDAY"),
-    TUESDAY("TUESDAY"),
-    WEDNESDAY("WEDNESDAY"),
-    THURSDAY("THURSDAY"),
-    FRIDAY("FRIDAY"),
-    SATURDAY("SATURDAY"),
-    SUNDAY("SUNDAY");
+    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
 
-    private String weekday;
+    public static boolean isWeekday(Weekday weekday) {
+        return !((weekday == Weekday.SATURDAY) || (weekday == Weekday.SUNDAY));
+    }
 
-    Weekday(String weekday) {
-        this.weekday = weekday;
+    public static boolean isHoliday(Weekday weekday) {
+        return !isWeekday(weekday);
     }
 }

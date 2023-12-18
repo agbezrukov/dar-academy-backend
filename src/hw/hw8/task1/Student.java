@@ -1,5 +1,8 @@
 package hw.hw8.task1;
 
+import java.time.ZonedDateTime;
+import java.util.Calendar;
+import java.util.HashMap;
 import java.util.Objects;
 
 /*
@@ -7,7 +10,6 @@ import java.util.Objects;
 Класс Student имеет метод toString() для печати информации о студенте.
  */
 public class Student implements Cloneable {
-
     private String name;
     private String surname;
     private String address;
